@@ -1,0 +1,12 @@
+name = "Gear Functions";
+picture = "logo_gearf_writing_ca.paa";
+actionName = "Website";
+action = "https://www.google.com";
+description = "Gear Fucntions - Version 1.0.0";
+logo = "logo_gearf_ca.paa";
+logoOver = "logo_gearf_ca.paa";
+tooltip = "GEAR FUNCTIONS";
+tooltipOwned = "Gear Functions Owned";
+overview = "Gear Functions";
+author = "Flax";
+overviewPicture = "logo_gearf_writing_ca.paa";
