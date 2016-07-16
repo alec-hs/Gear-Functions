@@ -4,7 +4,7 @@ class CfgPatches {
 		author = "Flax";
 		name = "Gear Functions - Functions";
 		requiredAddons[] = {};
-		requiredVersion = 0.100000;
+		requiredVersion = 0.2;
 		units[] = {};
 		weapons[] = {};
 	};
@@ -69,8 +69,8 @@ class CfgVehicles {
     };
 		// Class for event handles that manage variables for checking helmet is attached and storing helmet class and hiding/ showing a slung helmet in a GetIn GetOut event.
     class EventHandlers {
-      init = "(_this select 0) setVariable ['GEARF_HelmetAttached', false]; (_this select 0) setVariable ['GEARF_HelmetAttachedClass',''];";
-			killed = "(_this select 0) setVariable ['GEARF_HelmetAttached', false]; (_this select 0) setVariable ['GEARF_HelmetAttachedClass',''];";
+      init = "(_this select 0) setVariable ['GEARF_HelmetAttached', false]; (_this select 0) setVariable ['GEARF_HelmetAttachedClass','']; (_this select 0) setVariable ['GEARF_HelmetAdditionalClass',''];";
+			killed = "(_this select 0) setVariable ['GEARF_HelmetAttached', false]; (_this select 0) setVariable ['GEARF_HelmetAttachedClass','']; (_this select 0) setVariable ['GEARF_HelmetAdditionalClass',''];";
 			getInMan = "[(_this select 0), true] call GEARF_fnc_hideSlungHelmet";
 			getOutMan = "[(_this select 0), false] call GEARF_fnc_hideSlungHelmet;";
     };

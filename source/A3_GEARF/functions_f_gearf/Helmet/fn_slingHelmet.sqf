@@ -3,7 +3,7 @@ _side = _this select 1;
 _helmetAttached = _unit getVariable ["GEARF_HelmetAttached", false];
 
 if (headgear _unit == "")  then {
-  hint "No headgear to sling.";
+  systemChat "No headgear to sling.";
   } else {
     _headgear = headgear _unit;
     removeHeadgear _unit;
@@ -11,6 +11,19 @@ if (headgear _unit == "")  then {
     _helmetHolder addItemCargoGlobal [_headgear, 1];
     _unit setVariable ["GEARF_HelmetAttachedClass", _headgear];
     _unit setVariable ["GEARF_HelmetAttached", true];
+
+    _additional = [];
+
+    (backpackItems _unit) apply {
+        _parents = [configFile >> "CfgWeapons" >> _x >> "ItemInfo", true] call BIS_fnc_returnParents;
+        if("HeadgearItem" in _parents) then {
+            _additional append [_x];
+        };
+    };
+
+    _additionalClass = _additional select 0;
+    _unit addHeadgear _additionalClass;
+    _unit removeItemFromBackpack _additionalClass;
 
     switch (_side) do {
       case "left": {

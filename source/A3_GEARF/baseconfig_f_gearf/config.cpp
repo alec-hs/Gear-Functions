@@ -4,7 +4,7 @@ class CfgPatches {
 		author = "Flax";
 		name = "Gear Functions Base Config";
 		requiredAddons[] = {};
-		requiredVersion = 0.100000;
+		requiredVersion = 0.2;
 		units[] = {};
 		weapons[] = {};
 	};
