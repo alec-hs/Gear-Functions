@@ -16,11 +16,11 @@ class CfgMods
 	{
 		dir = "@Gear Functions";
 		name = "Gear Functions";
-		picture = "\A3_GEARF\data_f_gearf\UI_icons\logo_gearf_writing_ca.paa";
-		logo = "\A3_GEARF\data_f_gearf\UI_icons\logo_gearf_ca.paa";
-		logoOver =  "\A3_GEARF\data_f_gearf\UI_icons\logo_gearf_ca.paa";
+		picture = "\A3_GEARF\data_f_gearf\UI\logo_gearf_writing_ca.paa";
+		logo = "\A3_GEARF\data_f_gearf\UI\logo_gearf_ca.paa";
+		logoOver =  "\A3_GEARF\data_f_gearf\UI\logo_gearf_ca.paa";
 		tooltip = "Gear Functions Owned";
 		action = "#";
-		overview = "\A3_GEARF\data_f_gearf\UI_icons\logo_gearf_writing_ca.paa";
+		overview = "\A3_GEARF\data_f_gearf\UI\logo_gearf_writing_ca.paa";
 	};
 };

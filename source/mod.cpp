@@ -1,12 +1,12 @@
 name = "Gear Functions";
-picture = "logo_gearf_writing_ca.paa";
+picture = "\A3_GEARF\data_f_gearf\UI\logo_gearf_writing_ca.paa";
 actionName = "Website";
-action = "https://www.google.com";
+action = "https://arma.kestrelstudios.co.uk";
 description = "Gear Fucntions - Version 1.0.0";
-logo = "logo_gearf_ca.paa";
-logoOver = "logo_gearf_ca.paa";
+logo = "\A3_GEARF\data_f_gearf\UI\logo_gearf_ca.paa";
+logoOver = "\A3_GEARF\data_f_gearf\UI\logo_gearf_ca.paa";
 tooltip = "GEAR FUNCTIONS";
 tooltipOwned = "Gear Functions Owned";
 overview = "Gear Functions";
 author = "Flax";
-overviewPicture = "logo_gearf_writing_ca.paa";
+overviewPicture = "\A3_GEARF\data_f_gearf\UI\logo_gearf_writing_ca.paa";
